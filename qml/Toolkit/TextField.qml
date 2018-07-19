@@ -29,7 +29,7 @@ Item {
             left: parent.left
             right: parent.right
             bottom: underline.top
-            topMargin: 16 * Devices.density
+            topMargin: 18 * Devices.density
         }
         color: textColor
         selectionColor: selectColor
