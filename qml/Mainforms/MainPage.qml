@@ -43,7 +43,7 @@ Item {
                         spManager.append(snackbar_page)
                         break;
                     case 1:
-                        spManager.append(snackbar_page)
+                        spManager.append(textFields_page)
                         break;
                     case 2:
                         spManager.append(snackbar_page)
@@ -95,6 +95,13 @@ Item {
     Component {
         id: snackbar_page
         SnackBarPage {
+            anchors.fill: parent
+        }
+    }
+
+    Component {
+        id: textFields_page
+        TextFieldsPage {
             anchors.fill: parent
         }
     }

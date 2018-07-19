@@ -15,7 +15,7 @@ Rectangle {
     property int duration: 2000
     property bool fullWidth: Devices.isMobile ? true : false
     property bool alignRight: false
-    property string fontFamily: "Roboto"
+    property string fontFamily: AsemanApp.globalFont.family
     property color textColor: "white"
 
     signal clicked

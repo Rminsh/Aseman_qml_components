@@ -10,5 +10,7 @@
         <file>qml/images/Rocket.png</file>
         <file>qml/fonts/TitilliumWeb-Regular.ttf</file>
         <file>qml/Mainforms/SnackBarPage.qml</file>
+        <file>qml/Mainforms/TextFieldsPage.qml</file>
+        <file>qml/Toolkit/TextField.qml</file>
     </qresource>
 </RCC>

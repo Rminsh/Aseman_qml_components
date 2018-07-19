@@ -16,7 +16,8 @@ Page {
         TextField {
             id: showLabel
             width: parent.width
-            placeholderText: qsTr("Enter your text")
+            helperText: "Text"
+            floatingLabel: true
         }
 
         Button {
